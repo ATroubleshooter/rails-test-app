@@ -13,8 +13,8 @@ test:
   username: docker
   database: docker
 
-#production:
-#  <<: *development
-#  host: localhost
-#  username: docker
-#  database: test_app
+production:
+  <<: *development
+  host: localhost
+  username: docker
+  database: test_app
