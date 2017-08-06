@@ -1,0 +1,20 @@
+development: &development
+  adapter: postgresql
+  encoding: unicode
+  database: test_app_development
+  host: localhost
+  pool: 5
+  username: docker
+  password: docker
+
+test:
+  <<: *development
+  host: localhost
+  username: docker
+  database: docker
+
+#production:
+#  <<: *development
+#  host: localhost
+#  username: docker
+#  database: test_app
