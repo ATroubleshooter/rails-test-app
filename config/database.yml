@@ -15,7 +15,7 @@ test:
   password: docker
 
 production:
-  << *development
+  <<: *development
   host: localhost
   username: docker
   database: test_app
