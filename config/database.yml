@@ -12,4 +12,11 @@ test:
   host: localhost
   username: docker
   database: docker
+  password: docker
 
+production:
+  << *development
+  host: localhost
+  username: docker
+  database: test_app
+  password: docker

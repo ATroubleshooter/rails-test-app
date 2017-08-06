@@ -4,5 +4,5 @@ test:
   url: 'http://elasticsearch:9200'
 staging:
   url: 'http://localhost:9200'
-prodcution:
+production:
   url: 'http://localhost:9200'
